@@ -18,7 +18,7 @@ For `make menuconfig` you need ncurses:
 
 Install the `elf.h` header:
 
-  brew install nsabovic/linuxonmac/elf-header
+    brew install nsabovic/linuxonmac/elf-header
 
 Then build the kernel. `make menuconfig` should work. You may run into issues
 where kernel calls `/bin/false`, which won't work since macOS has it in
